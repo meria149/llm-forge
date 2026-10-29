@@ -1,0 +1,36 @@
+RAPPORT TRIMESTRIEL — PROGRAMME DE RECHERCHE "ORION"
+Direction Innovation — Document interne — Page 3/14
+---------------------------------------------------------------
+3. SYNTHÈSE DES PROJETS ACTIFS (au 30 septembre 2026)
+
+3.1 Projet ORION-NLP  (resp. : Dr Inès Barral)
+Statut : en cours — phase 2/3. Budget alloué : 420 000 EUR ; consommé :
+287 500 EUR. Équipe : 6 ETP. Jalon suivant : « prototype de résumé
+multilingue » prévu le 15/12/2026. Risque principal : dépendance à un
+fournisseur d'annotations (retard de 3 semaines constaté).
+
+3.2 Projet ORION-VISION (resp. : M. Tomasz Wierzbicki)
+Statut : en pause depuis le 02/09/2026 (réallocation GPU). Budget
+alloué 610 000 EUR, consommé 198 000 EUR. 4 ETP (dont 2 détachés
+temporairement sur NLP). Prochain jalon : redémarrage prévu T1 2027,
+date non confirmée. Risque : perte de l'avance sur le jeu de données
+industriel.
+
+   [en-tête de page répété : Direction Innovation — confidentiel]
+
+3.3 Projet ORION-EDGE  (resp. : Dr Amara Diallo)
+Statut : terminé le 30/06/2026 — objectifs atteints à 90 %. Budget
+alloué : 150 000 EUR ; consommé : 162 300 EUR (dépassement de 8,2 %).
+2 ETP. Pas de jalon suivant (transfert vers l'équipe produit).
+Risque : aucun signalé.
+
+3.4 Projet ORION-SAFE (resp. : Mme Lucie Fontaine)
+Statut : en cours — phase 1/2. Budget : 95 000 EUR alloués, 41 200 EUR
+consommés. 1,5 ETP. Jalon suivant : « audit de robustesse des agents
+internes » le 20/11/2026. Risque principal : recrutement d'un second
+profil sécurité non abouti.
+
+Note : les montants sont HT. Le total consommé du programme
+(728 000 EUR — voir p. 9) inclut 39 000 EUR de frais transverses
+non affectés à un projet.
+---------------------------------------------------------------
