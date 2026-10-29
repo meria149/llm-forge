@@ -18,8 +18,8 @@ from forge.clients import MissingAPIKeyError, complete, log_path  # noqa: E402
 CHEAP_MODELS = [
     ("OPENROUTER_API_KEY", "openrouter/openai/gpt-4o-mini"),
     ("OPENAI_API_KEY", "gpt-4o-mini"),
-    ("ANTHROPIC_API_KEY", "anthropic/claude-3-5-haiku-latest"),
-    ("GOOGLE_API_KEY", "gemini/gemini-1.5-flash"),
+    ("ANTHROPIC_API_KEY", "anthropic/claude-haiku-4-5"),
+    ("GOOGLE_API_KEY", "gemini/gemini-3.5-flash-lite"),
     ("XAI_API_KEY", "xai/grok-3-mini"),
 ]
 

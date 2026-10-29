@@ -6,7 +6,7 @@ Usage :
     r["text"], r["in_tokens"], r["out_tokens"]
 
 `model` est une chaîne de modèle LiteLLM, par ex. :
-    "gpt-4o-mini", "anthropic/claude-3-5-haiku-latest", "gemini/gemini-1.5-flash",
+    "gpt-4o-mini", "anthropic/claude-haiku-4-5", "gemini/gemini-3.5-flash-lite",
     "xai/grok-2-latest", "openrouter/meta-llama/llama-3.1-8b-instruct".
 
 Chaque appel (réussi ou non) ajoute une ligne JSON dans data/calls.jsonl
