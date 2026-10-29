@@ -44,6 +44,20 @@ print(r["text"], r["in_tokens"], r["out_tokens"])
 | `tests/` | Tests unitaires (sans appel réseau) |
 | `scripts/` | Utilitaires (test de fumée, etc.) |
 
+## Prompts et notebooks (B1)
+
+- **Bibliothèque v1** : 10 gabarits `forge/prompts/*.md` (front-matter `id`, `version`, `modeles_testes`,
+  `variables`, `score_moyen`, `notes`), chargés avec :
+  ```python
+  from forge.prompts import load_prompt, list_prompts
+  p = load_prompt("resume-papier")
+  prompt = p.render(texte=..., public=..., objectif=..., longueur="200 mots")
+  sans_exemple = p.render(drop=["Exemple"], texte=..., public=..., objectif=..., longueur=...)  # ablation
+  ```
+  Fixtures de test commitées dans `forge/prompts/_fixtures/`.
+- **Expériences B1** : `scripts/b1_*.py` (A/B, ablation, JSON + Pydantic) → `notebooks/b1_results/` ;
+  analyse dans `notebooks/b1_ab.ipynb` (installer `pip install -e ".[notebooks]"`) ; bilan dans `journal/2026-10-29-b1.md`.
+
 ## Sécurité des clés
 
 Les clés vivent uniquement dans `.env` (ignoré par git). Fixe une limite de dépense mensuelle
